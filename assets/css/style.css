@@ -371,9 +371,13 @@ justify-content: space-between;
 /* Footer part start */
 .footer{
    width: 100%;
-   height: 400px;
+   height: 500px;
    padding: 50px 160px;
    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(../img/sydney.jpg);
+   
+}
+
+.topfooter{
    display: flex;
    justify-content: space-between;
 }
@@ -401,4 +405,36 @@ justify-content: space-between;
    font-weight: bold;
 }
 
+.footer .international div{
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer .international div .i1{
+   margin-right: 20px;
+}
+
+.lowerfooter{
+   display: flex;
+   margin-top: 40px;
+   color: #fff;
+}
+
+.lowerfooter div ul{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 10px;
+   width: 90%;
+   font-size: 16px;
+   font-weight: 900;
+}
+
+.lowerfooter div p{
+   padding-left: 10px; 
+   font-size: 14px; 
+}
+
+.SocialMedia ul li a{
+   padding-left: 20px;
+}
 /* Footer part end */
