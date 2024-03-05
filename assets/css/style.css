@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER SECTION START--------------- */
+a{
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(7, 7, 93);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    line-height: 60px;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+header ul li{
+   margin-right: 25px;
+   display: inline-block;
+}
+
+header ul li a{
+   font-weight: 600;
+ }
+
+header img{
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+header ul li a.active{
+    color:rgb(250, 103, 128);
+  }
+ /* HEADER SECTION END--------------- */
+
+
+
+/* BANNER SECTION START--------------- */
+  .banner{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/banner.jpg);
+    width: 100%;
+    height: 650px;
+    background-size:100% 100% ;
+    padding: 0px 200px;
+    position: relative;
+    
+ }
+
+ .banner h1{
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    top:150px;
+    color: #fff;
+ } 
+
+ .banner h2{
+    font-size: 30px;
+    position: absolute;
+    top:280px;
+    color: #fff;
+ } 
+
+ .banner form{
+    position: absolute;
+    width: 72%;
+    height: 120px;
+    bottom: 50px;
+    background-color: rgb(104, 43, 161);
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+ }
+
+
+ .banner form button{
+    width: 90px;
+    height: 30px;
+    border:none;
+    background-color: rgba(14, 1, 19, 0.178);
+    color: #fff;
+    border: none;
+    font-weight: bold;
+ }
+
+ .banner form button.active{
+    background-color: rgb(200, 25, 25);
+ }
+
+.banner form .searchForm{
+    margin-top: 8px;
+}
+
+.banner span{
+    color:aqua;
+    padding-right: 20px;
+}
+
+
+ .banner form .searchForm input,
+ .banner form .searchForm select{
+    width:160px;
+     height: 35px;
+ }
+
+ .banner form button.smt{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(200, 25, 25);
+    margin-left: 30px;
+    color: #fff;
+ }
+
+ .OtherDetails{
+    display: flex;
+    padding-top: 8px;
+    color: #fff;
+ } 
+ 
+ .OtherDetails h4{
+    padding-right: 30px;
+    font-size: 14px;
+    font-weight: normal;
+ } 
+ /* BANNER SECTION END--------------- */
+
+
+
+ /* FUN SECTION START---------------- */
+ .fun{
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/banner4.jpg);
+   background-size: 100% 100%;
+   width: 100%;
+   height: 400px;
+   color: #fff;
+   padding:50px 125px;
+ }
+
+ .fun h3{
+   padding-top: 40px;
+   text-align: center;
+   font-size: 25px;
+ }
+ .fun ul{
+   display: flex;
+   justify-content: space-around; 
+   list-style: none;
+   padding-top: 50px;
+ }
+
+ .fun ul li{
+   color: #fff;
+   width: 110px;
+   height: 110px;
+   background-color:rgba(0,0,0,0.7);
+   text-align: center;
+   text-decoration: none;
+   padding:15px;
+   font-size: 35px;
+
+ } 
+
+ .fun ul li h6{
+   font-size: 17px;
+   font-weight:bolder;
+ }
+ .fun ul li p{
+   font-size: 9px;
+   font-weight: lighter;
+ }
+
+ .subscribe{
+   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/news3.jpg);
+   width: 100%;
+   height:290px;
+   background-size: 100% 100%; 
+   color: #fff;
+ }
+
+ .subscribe div{
+   padding-left: 40%;
+   padding-top: 100px;
+   padding-right: 10%;
+   text-align: center;
+ }
+
+ .subscribe h3{
+   text-transform: uppercase;
+   padding-bottom: 30px;
+   font-size: 30px;
+ }
+
+ .subscribe form{
+   padding-top: 25px;
+ }
+.subscribe form input{
+  width: 600px;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-left: -30px;
+}
+
+.subscribe form button{
+   height: 45px;
+   width: 150px;
+   background-color:#fff;
+   margin-left: 10px;
+}
+
+.popularDestination{
+   height: 900px;
+   width: 100%;
+   background-color: rgb(19, 19, 41);
+   color: #fff;
+   padding:50px 125px;
+}
+
+.popularDestination h1{
+   text-align: center;
+   font-size: 30px;
+   word-spacing: 0.3em;
+}
+
+.popularDestination ul{
+   display: grid;
+   grid-template-columns: repeat(4,23%);
+   grid-template-rows: 350px 350px;
+   grid-gap: 30px;
+   padding: 35px;
+   height: 800px;
+}
+
+.popularDestination ul li{
+    background-color: #fff;
+    list-style: none;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+
+.popularDestination ul li div.content{
+   padding: 20px 25px;
+}
+
+.popularDestination ul li div span{
+   color: orangered;
+
+}
+
+
+.QuickEstimate{
+   background-color:#654DAD;
+   width: 100%;
+   height: 270px;
+   background-image: url(../img/estimate.jpg);
+   background-size: contain;
+   background-position: right;
+   background-repeat: no-repeat;
+   color: #fff;
+   padding:50px 160px;
+}
+
+.horizontal-line {
+   width: 4%; 
+   height: 1px; 
+   background-color:#fff;
+ }
+
+ .QuickEstimate h1{
+   font-size: 30px;
+   line-height: 10px;
+   margin-bottom:25px;
+   padding-top: 30px;
+   word-spacing: 1px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .QuickEstimate h3{
+   font-size: 18px;
+   line-height: 10px;
+   margin-bottom:25px;
+   word-spacing: 1px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .QuickEstimate form{
+display: flex;
+justify-content: space-between;
+   margin-top: 30px;
+   height: 40px;
+   margin-right: 150px;
+ }
+
+ 
+ input ,select {
+   width: 350px;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   margin-right: 20px;
+   height: 40px;
+ }
+
+.QuickEstimate form input[type="submit"]{
+   background-color: rgb(247, 118, 71);
+   border: none;
+}
+
+/* BLOG SECTION START */
+.blog{
+   width: 100%;
+   height: auto;
+   padding: 50px 160px;
+}
+
+.blog h2{
+   color: black;
+   margin-top: 10px;
+   text-align: center;
+}
+
+/* H2 k baad wala sibling p tag (+) */
+.blog h2+p{
+   text-align: center;
+   padding-left: 220px;
+   width: 80%;
+   margin-top: 10px;
+}
+
+.blog-content{
+   display: flex;
+   margin:10px auto;
+}
+
+.blog-content div{
+   padding: 10px;
+   display: flex;
+}
+
+.blog-content div img{
+   width: 150px;
+   height: 150px;
+}
+
+.blog-content div div {
+   display: block;
+}
+
+.blog-content div p{
+   margin-top: 10px;
+}
+/* bLOG SECTION END */
+
+
+/* Footer part start */
+.footer{
+   width: 100%;
+   height: 400px;
+   padding: 50px 160px;
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.3)),url(../img/sydney.jpg);
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer h2{
+   color: #fff;
+   padding: 15px 0px;
+}
+
+.footer ul li{
+   list-style: none;
+   line-height: 20px;
+   margin-bottom: 5px;
+}
+
+.footer ul li a{
+   color: #ccc;
+}
+.footer ul li i{
+   color: white;
+}
+
+.footer ul li a span{
+   color: white;
+   font-weight: bold;
+}
+
+/* Footer part end */
